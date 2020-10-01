@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 //* Page Scripts
 // Mobile Navigaton Toggle
 function navToggle() { // creates a new function named navToggle
