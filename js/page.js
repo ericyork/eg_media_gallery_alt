@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 //* Page Scripts
 // Mobile Navigaton Toggle
 function navToggle() { // creates a new function named navToggle
@@ -27,8 +34,8 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("slide");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) {slideIndex = 1;}
+  if (n < 1) {slideIndex = slides.length;}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
